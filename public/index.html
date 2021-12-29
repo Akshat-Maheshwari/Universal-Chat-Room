@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Universal Chat Room</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="heading">Universal Chat</h1>
+    <div class="app-container">
+      <div class="app-body">
+        <div class="name-container">
+            <input type="text" class="name-input" name="name-input" placeholder="Enter your name">
+        </div>
+        <div class="total-users">
+        </div>
+        <div class="messages-container">
+          <div class="message left">
+            <p class="user-name">Akshat</p>
+            <p class="user-message">Welcome to the 'Universal Chat Room'</p>
+            <p class="message-time">15:28</p>
+          </div>
+          <div class="message left">
+            <p class="user-name">Akshat</p>
+            <p class="user-message">Please Enter your name above otherwise your name would not be visible</p>
+            <p class="message-time">15:28</p>
+          </div>
+
+        </div>
+        <div class="send-message">
+          <form class="send-form">
+            <input type="text" class="message-input" placeholder="Type a message">
+            <button class="message-button" type="submit" name="button">Send</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js">
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+.heading{
+  text-align: center;
+  margin:10px auto 10px;
+}
+.app-container{
+  display: block;
+  margin:auto;
+  text-align: center;
+  background-color: rgb(231, 228, 223);
+  padding:20px 40px 20px;
+  width:40%;
+  border-radius: 20px;
+}
+.messages-container{
+  overflow-y:scroll;
+  display:block;
+  margin:20px auto 20px;
+  height:60vh;
+  width:70%;
+  border: 2px solid grey;
+  border-radius:10px;
+  background-color: #D8D8D8;
+  padding:20px;
+
+}
+.message{
+    font-size:16px;
+    padding:6px;
+    width: fit-content;
+    background-color:white;
+    border-radius:10px;
+    margin-bottom:8px;
+    text-align: left;
+}
+.message p {
+  margin:0;
+}
+.message-time{
+  font-size:xx-small;
+  text-align: right;
+}
+.user-name{
+  font-weight:800;
+  font-size:small;
+}
+.user-message{
+  padding:8px 5px;
+}
+.right{
+  background-color: #dcf8c6;
+  margin-left:auto;
+}
+.name-input, .message-input{
+    border:1px solid grey;
+    border-radius:25px;
+    padding: 8px;
+    padding-left:20px;
+    outline-width:0;
+    margin-bottom:10px;
+}
+.message-input{
+  width:300px;
+}
+.message-button{
+  text-decoration: none;
+  border-radius: 10px;
+  padding:10px 15px 10px;
+  border:1px solid grey;
+}
+.message-button:hover{
+  background-color: #D3D3D3;
+}
+.total-users{
+  background-color: #F5F5F5;
+  padding:10px;
+  width:200px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
